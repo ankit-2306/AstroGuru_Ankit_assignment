@@ -160,21 +160,27 @@ export default function Homes() {
       sx={{
         display: 'flex',
         flexDirection: { xs: 'column', md: 'column' },
-        alignItems: 'center',
+        alignItems: 'initial',
         bgcolor: 'background.default',
         border: '1px solid',
         borderColor: 'divider',
         borderRadius: 2,
         overflow: 'clip',
+        marginTop:{xs:2,md:2},
         padding:{xs:2,md:4},
+        gap:2,
       }}
     >
       <Typography variant="h4" align="center">
           Form Preview
         </Typography>
-      <TextField id="acd" label="Outlined" variant="outlined" />
-      <TextField id="filled-basic" label="Filler" variant="filled" />
-      <TextField id="standard-basic" label="Standard" variant="standard" />
+        <div>Name:</div>
+        <div>email:</div>
+        <div>number:</div>
+        <div>Address:</div>
+        <div>City:</div>
+        <div>State:</div>
+        <div>Zip:</div>
       <ButtonGroup variant="outlined" aria-label="Basic button group" sx={{gap:2}}>
         <Button variant="contained" disabled >
           Back
