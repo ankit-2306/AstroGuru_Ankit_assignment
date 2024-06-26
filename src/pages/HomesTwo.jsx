@@ -121,7 +121,7 @@ export default function Homes() {
         display: 'flex',
         flexDirection: { xs: 'column', md: 'column' },
         alignItems: 'center',
-        bgcolor: 'background.default',
+        // bgcolor: 'background.default',
         border: '1px solid',
         borderColor: 'divider',
         borderRadius: 2,

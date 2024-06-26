@@ -131,7 +131,6 @@ export default function Homes() {
         display: 'flex',
         flexDirection: { xs: 'column', md: 'column' },
         alignItems: 'initial',
-        bgcolor: 'background.default',
         border: '1px solid',
         borderColor: 'divider',
         borderRadius: 2,
